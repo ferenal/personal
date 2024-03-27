@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f00;
+}
+
+div {
+    background-color: white;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+p {
+    font-family: consolas;
+    font-weight: bold;
+}
+
+input {
+    padding: 1rem;
+    font-family: consolas;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#moneyGcash,
+#moneyMaya {
+    color: #f00;
+}
+
+
+#convert {
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #f00;
+    color: #fff;
+}
+
+button:hover {
+    color: #ff0;
+}
